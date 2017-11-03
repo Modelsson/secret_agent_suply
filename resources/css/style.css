@@ -2,6 +2,7 @@ html {
   font-size: 18px;
   font-family: Helvetica;
   background: white;
+  color: white;
 }
 
 /* HEADER */
@@ -25,7 +26,6 @@ header {
   background: black;
   display: flex;
   align-items: center;
-  color: white;
 }
 
 .logo .container {
@@ -45,7 +45,6 @@ header {
   margin-top: 9rem;
   width: 20rem;
   background: black;
-  color: white;
   font-weight: bold;
   padding: 2rem 3rem;
 }
@@ -95,7 +94,6 @@ nav {
 
 .product p {
   background: black;
-  color: white;
   padding: 0.5rem 0;
   width: 100%;
   text-align: center;
@@ -116,9 +114,16 @@ nav {
 
 .location {
   background: black;
-  color: white;
   padding: 1rem 2rem;
   margin-bottom: 0.25rem;
 }
 
 /* FOTTER */
+
+footer {
+  background: black;
+  margin-top: 4rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+}
